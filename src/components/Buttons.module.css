@@ -1,0 +1,27 @@
+.btns {
+    display: flex;
+    gap: 12px;
+}
+
+button {
+  border: 1px solid rgb(243, 149, 34);
+  background: rgb(92, 55, 10);
+  color: white;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 12px 24px;
+box-shadow: 5px 3px 0px 1px #bebcbc;
+cursor: pointer;
+  transition: all 0.1s ease-in-out;
+    transition: all 0.3s;
+}
+
+button:hover {
+  background-color: rgb(247, 195, 132);
+  transform: scale(1.03);
+}
+
+button:active {
+  transform: scale(0.9);
+}

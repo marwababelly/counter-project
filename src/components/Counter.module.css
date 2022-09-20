@@ -1,0 +1,23 @@
+.container {
+   min-height: 100vh;
+  display: flex;
+  gap: 36px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(253, 243, 231);
+}
+
+.container .number {
+    font-size: 120px;
+  font-family: monospace;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 1px solid rgb(243, 149, 34);
+  box-shadow: 2px 4px 10px #ddd;
+  color: rgb(92, 55, 10);
+}
